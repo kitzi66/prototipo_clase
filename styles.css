@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    margin: 0px;
 }
 
 .menu-dispositivos{
@@ -42,3 +43,36 @@ body{
     width: 100px;
     padding: 0%;
 }
+
+@media only screen and (max-width: 796px) {
+    .dispositivos{
+        display: none;
+    }
+
+    #toggle{
+        display: none;
+    }
+
+    .header{
+        background-color: rgb(51, 51, 51);
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+    }
+    
+    img{
+        width: 49px;
+        height: 49px;
+    }
+
+    .menu{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu a{
+        margin-left: 45px;
+    }
+}
+
