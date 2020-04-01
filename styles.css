@@ -1,6 +1,17 @@
 body{
-    background-color: darkslategrays;
+    background-color: black;
 }
+
+.menu-dispositivos{
+    color:white;
+    position: sticky;
+    top:44px;
+    left: 0px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .oncepro
 {
     color: white;
